@@ -1,7 +1,6 @@
-"use client";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "./ui/button";
+import { Card, CardContent } from "./ui/card";
 import Image from "next/image";
 
 export default function Projects() {
@@ -12,7 +11,7 @@ export default function Projects() {
           {/* Section Heading */}
           <h2
             data-aos="fade-up"
-            className="text-5xl font-bold text-center mb-12 text-cyan-500"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 text-cyan-500"
           >
             Featured Projects
           </h2>
@@ -21,38 +20,38 @@ export default function Projects() {
             {[
               {
                 title: "IT Blog Platform",
-                image: "/project1.jpg",
+                image: "/it-blog.png",
                 desc: "Full-featured blog with Sanity CMS, search, pagination, save/copy/share/download blogs. Built with Next.js & Tailwind.",
                 link: "https://it-blog-jet.vercel.app/",
-                github: "#",
+                github: "https://github.com/Sana-Farasat/IT-Blog",
               },
               {
                 title: "Market Builder Ecommerce",
-                image: "/project1.jpg",
+                image: "/hecto-site.png",
                 desc: "Figma-to-code ecommerce with Sanity API, cart, wishlist, Stripe payments, filtering & checkout.",
                 link: "https://market-builder-website.vercel.app/",
-                github: "#",
+                github: "https://github.com/Sana-Farasat/Market-Builder-Website",
               },
               {
                 title: "SDK Bot – AI Agent Builder",
-                image: "/project1.jpg",
+                image: "/sdk-bot.png",
                 desc: "AI-powered chatbot trained on SDK docs using agentic workflows. Next.js frontend.",
                 link: "https://sdk-bot.vercel.app/",
-                github: "#",
+                github: "https://github.com/Sana-Farasat/SDK-Bot-Frontend",
               },
               {
                 title: "AI-Native Book: Physical AI & Robotics",
-                image: "/project1.jpg",
+                image: "/ai-native-book.png",
                 desc: "Interactive AI-native book with RAG chatbot, quizzes, summaries & PDF export.",
                 link: "https://ai-native-book-omega.vercel.app/",
-                github: "#",
+                github: "https://github.com/Sana-Farasat/AI-Native-Book",
               },
               {
                 title: "Crypto Investment Platform",
-                image: "/project1.jpg",
+                image: "/crypto-site.png",
                 desc: "Crypto platform with Framer Motion animations, calculators, plans & testimonials.",
                 link: "https://crypto-website-flax.vercel.app/",
-                github: "#",
+                github: "https://github.com/Sana-Farasat/Crypto-Website",
               },
             ].map((proj, index) => (
               <Card
