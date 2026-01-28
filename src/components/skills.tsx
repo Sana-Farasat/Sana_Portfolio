@@ -20,7 +20,7 @@ function Skills() {
     <main className="max-w-screen-2xl mx-auto bg-gradient-to-tr  from-gray-400 via-gray-800 to-gray-950">
      
 
-      <h2 className="text-5xl flex justify-center md:text-6xl lg:text-7xl xl:text-8xl font-bold p-3 text-cyan-500">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl flex justify-center md:text-6xl lg:text-7xl xl:text-8xl font-bold p-3 text-cyan-500">
         My Skills
       </h2>
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-7 max-w-5xl mx-auto overflow-visible ">
