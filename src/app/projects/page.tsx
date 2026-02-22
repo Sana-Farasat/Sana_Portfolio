@@ -16,7 +16,7 @@ export default function Projects() {
             Featured Projects
           </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 title: "IT Blog Platform",
@@ -118,7 +118,10 @@ export default function Projects() {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
+      <section>
+        <FeaturedProjects />
+      </section>
       </section>
     </main>
   );
